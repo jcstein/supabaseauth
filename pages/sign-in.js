@@ -21,7 +21,7 @@ export default function SignIn () {
         return (
             <div className={styles.container}>
                 <div className={styles.main}>
-                    <h1 className={styles.subtitle}>📧 please check your email to sign in</h1>
+                    <h1 className={styles.subtitle}>📧 check your email to sign in</h1>
                 </div>
             </div>
         )
