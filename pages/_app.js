@@ -2,10 +2,10 @@ import '../styles/globals.css'
 import { supabase } from '../client'
 import { useRouter } from 'next/router'
 import { useState, useEffect } from 'react'
-import styles from '../styles/Home.module.css'
-import Head from 'next/head'
+// import styles from '../styles/Home.module.css'
+// import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 
 function MyApp({ Component, pageProps }) {
@@ -43,11 +43,11 @@ function MyApp({ Component, pageProps }) {
   }
   return (
   <div>
-    <Head>
+    {/* <Head>
       <title>jcs.sol | by josh</title>
         <meta name="description" content="Building dApps for people and planet" />
         <link rel="icon" href="/favicon.ico" />
-    </Head>
+    </Head> */}
     <nav style={navStyle}>
       <Link href="/">
         <a style={linkStyle}>🏠 Home</a>
@@ -77,7 +77,7 @@ function MyApp({ Component, pageProps }) {
 
     <Component {...pageProps} />
     
-    <footer className={styles.footer}>
+    {/* <footer className={styles.footer}>
       <a
         href="https://y.at/mushroom.kiwi-fruit.apple.avocado"
         target="_blank"
@@ -88,7 +88,7 @@ function MyApp({ Component, pageProps }) {
           <Image src="/jcs.svg" alt="jcs.sol Logo" width={44} height={16} />
         </span>
       </a>
-    </footer>
+    </footer> */}
     </div>
   )
 }
