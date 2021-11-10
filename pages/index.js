@@ -8,7 +8,7 @@ export default function Home() {
         👋 Welcome to <a href="https://twitter.com/JoshCStein">jcs.sol!</a>
       </h1>
       <p className={styles.description}>
-       🔐 sign in above to see what I'm building today
+       🔐 sign in above to see what I am building today
       </p>
     </main>
   </div> 
