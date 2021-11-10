@@ -5,7 +5,7 @@ export default function Home() {
     <div className={styles.container}>
     <main className={styles.main}>
       <h1 className={styles.title}>
-        Welcome to <a href="https://twitter.com/JoshCStein">jcs.sol!</a>
+        👋 Welcome to <a href="https://twitter.com/JoshCStein">jcs.sol!</a>
       </h1>
       <p className={styles.description}>
         I am currently learning about{' '}
