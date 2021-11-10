@@ -69,7 +69,7 @@ function MyApp({ Component, pageProps }) {
       {
         authenticatedState === 'authenticated' && (
           <Link href="/profile">
-            <a style={linkStyle}>📜 Profile</a>
+            <a style={linkStyle}>📜 My Profile</a>
           </Link>
         )
       }
