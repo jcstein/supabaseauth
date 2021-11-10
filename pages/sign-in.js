@@ -20,7 +20,7 @@ export default function SignIn () {
     if (submitted) {
         return (
             <div className={styles.container}>
-                <h1>Please check your email to sign in 📧</h1>
+                <h1>📧 please check your email to sign in</h1>
             </div>
         )
     }
@@ -29,7 +29,7 @@ export default function SignIn () {
         <div className={styles.container}>
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Sign In
+                    sign in with your email
                 </h1>
                 <input
                     onChange={e => setEmail(e.target.value)}
