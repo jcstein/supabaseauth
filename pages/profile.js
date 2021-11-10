@@ -30,7 +30,7 @@ export default function Profile() {
         <div style={{ maxWidth: '420px', margin: '96px auto'}}>
             <h2> Hello, {profile.email}</h2>
             <p>User ID: {profile.id}</p>
-            <button onClick={signOut}>Sign Out</button>
+            <button className={styles.button} onClick={signOut}>Sign Out</button>
         </div>
         </div>
     )

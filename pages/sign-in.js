@@ -31,11 +31,11 @@ export default function SignIn () {
                 <h1 className={styles.title}>
                     sign in with your email
                 </h1>
-                <input
+                <input className={styles.input}
                     onChange={e => setEmail(e.target.value)}
                     style={{ margin: 10 }}
                 />
-                <button onClick={() => signIn()}>Sign In</button>
+                <button className={styles.button} onClick={() => signIn()}>Sign In</button>
             </main>
         </div>
     )
