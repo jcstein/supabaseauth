@@ -7,10 +7,10 @@ export default function Home() {
       <h1 className={styles.title}>
         👋 Welcome to <a href="https://twitter.com/JoshCStein">jcs.sol!</a>
       </h1>
-      <a href="/sign-in"><p className={styles.description}>
-        <code className={styles.code}>🔐 Sign In</code>
-        {' '} to see what I'm building
-      </p></a>
+      <p className={styles.description}>
+        <code className={styles.code}>🔐 sign in</code>
+        {' '}above to see what I'm building
+      </p>
     </main>
   </div> 
   )
