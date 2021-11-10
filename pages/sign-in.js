@@ -20,7 +20,9 @@ export default function SignIn () {
     if (submitted) {
         return (
             <div className={styles.container}>
-                <h1>📧 please check your email to sign in</h1>
+                <div className={styles.main}>
+                    <h1 className={styles.subtitle}>📧 please check your email to sign in</h1>
+                </div>
             </div>
         )
     }

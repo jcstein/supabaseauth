@@ -74,9 +74,9 @@ function MyApp({ Component, pageProps }) {
         )
       }
     </nav>
-
-    <Component {...pageProps} />
     
+    <Component {...pageProps} />
+
     <footer className={styles.footer}>
       <a
         href="https://y.at/mushroom.kiwi-fruit.apple.avocado"

@@ -57,14 +57,27 @@
   font-size: 3rem;
 }
 
+.subtitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+}
+
 .title,
-.description {
+.description,
+.description2,
+.subtitle {
   text-align: center;
 }
 
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.description2 {
+  line-height: 1.5;
+  font-size: 1rem;
 }
 
 .code {
@@ -94,7 +107,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  width: 55%;
+  width: 42%;
 }
 
 .card:hover,
