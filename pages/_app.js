@@ -43,7 +43,6 @@ function MyApp({ Component, pageProps }) {
   }
   return (
   <div>
-    <body>
     <Head>
       <title>jcs.sol | by josh</title>
         <meta name="description" content="Building dApps for people and planet" />
@@ -90,7 +89,6 @@ function MyApp({ Component, pageProps }) {
         </span>
       </a>
     </footer>
-    </body>
     </div>
   )
 }
