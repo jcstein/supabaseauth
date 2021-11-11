@@ -47,7 +47,7 @@ function MyApp({ Component, pageProps }) {
       <title>jcs.sol | by josh</title>
         <meta name="description" content="Building dApps for people and planet" />
         <link rel="icon" href="/favicon.ico" />
-        
+        <link rel='manifest' href='manifest.json' />
     </Head>
     <nav style={navStyle}>
       <Link href="/">

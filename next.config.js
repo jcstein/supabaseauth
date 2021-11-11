@@ -1,6 +1,3 @@
-module.exports = {
-  reactStrictMode: true,
-}
 const withPWA = require("next-pwa");
 
 module.exports = withPWA({
@@ -9,4 +6,5 @@ module.exports = withPWA({
     register: true,
     skipWaiting: true,
   },
+  reactStrictMode: true,
 });
