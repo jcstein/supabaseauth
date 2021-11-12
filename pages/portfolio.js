@@ -14,23 +14,23 @@ return (
          <code className={styles.code}>theWorld/Of/Web3.js</code>
        </p>
        <div className={styles.grid}>
-         <a href="https://veggie-portal.jcstein.repl.co" className={styles.card}>
+         <a href="https://web3.jcstein.dev" className={styles.card}>
            <h2>Web3 App &rarr;</h2>
            <p>My first Web3 dApp with a Smart Contract on the Ethereum blockchain.</p>
          </a>
-         <a href="https://web3.jcstein.dev" className={styles.card}>
+         <a href="https://minting.jcstein.dev" className={styles.card}>
            <h2>NFT Minting &rarr;</h2>
            <p>Limited Edition NFT Minting dApplication on ETH Rinkeby network.</p>
          </a>
          <a
-           href="https://minting.jcstein.dev"
+           href="https://game.jcstein.dev"
            className={styles.card}
          >
            <h2>Game &rarr;</h2>
            <p>Built on the Ethereum Blockchain.</p>
          </a>
          <a
-           href="https://game.jcstein.dev"
+           href="https://solana.jcstein.dev"
            className={styles.card}
          >
            <h2>Solana &rarr;</h2>
