@@ -53,7 +53,6 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="Building dApps for people and planet" />
         <meta name="keywords" content="Web3 dApps Ethereum and Solana" />
         <title>jcs.sol | by josh</title>
-
         <link rel="manifest" href="/manifest.json" />
         <link
           href="/favicon-16x16.png"
