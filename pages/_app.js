@@ -1,9 +1,9 @@
+import Head from 'next/head'
 import '../styles/globals.css'
 import { supabase } from '../client'
 import { useRouter } from 'next/router'
 import { useState, useEffect } from 'react'
 import styles from '../styles/Home.module.css'
-import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -44,13 +44,33 @@ function MyApp({ Component, pageProps }) {
   return (
   <div>
     <Head>
-      <title>jcs.sol | by josh</title>
+        <meta charSet="utf-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+        />
         <meta name="description" content="Building dApps for people and planet" />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel='manifest' href='manifest.json' />
-        <link rel="apple-touch-icon" href="/icon-512x512.png" />
-        <meta name="theme-color" content="#fff" />
-    </Head>
+        <meta name="keywords" content="Web3 dApps Ethereum and Solana" />
+        <title>jcs.sol | by josh</title>
+
+        <link rel="manifest" href="/manifest.json" />
+        <link
+          href="/favicon-16x16.png"
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+        />
+        <link
+          href="/favicon-32x32.png"
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+        />
+        <link rel="apple-touch-icon" href="/apple-icon.png"></link>
+        <meta name="theme-color" content="#317EFB" />
+      </Head>
+
     <nav style={navStyle}>
       <Link href="/">
         <a style={linkStyle}>🏠 Home</a>
