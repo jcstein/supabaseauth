@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps }) {
   return (
   <div>
     <Head>
-        <link rel="manifest" href="public/manifest.json" />
+        <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#317EFB" />
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
