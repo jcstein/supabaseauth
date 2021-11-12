@@ -6,7 +6,8 @@
     "display": "standalone",
     "orientation": "portrait",
     "scope": "/",
-    "start_url": "/",
+    "start_url": "/_app.js",
+    "prefer_related_applications": "true",
     "icons": [
       {
         "src": "/icon-72x72.png",
