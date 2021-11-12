@@ -48,7 +48,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="Building dApps for people and planet" />
         <link rel="icon" href="/favicon.ico" />
         <link rel='manifest' href='manifest.json' />
-        <link rel="apple-touch-icon" href="/icon-512x512.png"></link>
+        <link rel="apple-touch-icon" href="/icon-512x512.png" />
         <meta name="theme-color" content="#fff" />
     </Head>
     <nav style={navStyle}>
