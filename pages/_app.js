@@ -7,7 +7,6 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
-
 function MyApp({ Component, pageProps }) {
   const [authenticatedState, setAuthenticatedState] = useState('not-authenticated')
   const router = useRouter()
@@ -44,6 +43,7 @@ function MyApp({ Component, pageProps }) {
   return (
   <div>
     <Head>
+        <link rel="manifest" href="/manifest.json" />
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
@@ -53,20 +53,19 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="Building dApps for people and planet" />
         <meta name="keywords" content="Web3 dApps Ethereum and Solana" />
         <title>jcs.sol | by josh</title>
-        <link rel="manifest" href="/manifest.json" />
         <link
-          href="public/favicon-16x16.png"
+          href="/favicon-16x16.png"
           rel="icon"
           type="image/png"
           sizes="16x16"
         />
         <link
-          href="public/favicon-32x32.png"
+          href="/favicon-32x32.png"
           rel="icon"
           type="image/png"
           sizes="32x32"
         />
-        <link rel="apple-touch-icon" href="public/apple-icon.png"></link>
+        <link rel="apple-touch-icon" href="/apple-icon.png"></link>
         <meta name="theme-color" content="#317EFB" />
       </Head>
 
